@@ -5,7 +5,7 @@
 using namespace std;
 //-----------------------------------------------------------------------------
 
-constexpr uint64_t binpow (uint32_t a, uint32_t n) noexcept
+constexpr uint64_t binpow(uint32_t a, uint32_t n) noexcept
 {
   int res = 1;
   while(n)

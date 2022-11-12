@@ -67,7 +67,7 @@ int main()
   //Main task processing
   constexpr uint32_t base = 13;
   constexpr uint32_t num_len = 13;
-  constexpr uint32_t beauty_len = 5;
+  constexpr uint32_t beauty_len = 6;
 
   // Checking that binpow is invoked at a compile time. Static_assert
   // does not compile if binpow is not calculated on a compiling time)
@@ -81,7 +81,7 @@ int main()
             "      num_len = "<< num_len << endl <<
             "      beauty_len = " << beauty_len << endl <<
             "Result: \n"
-            "      beauty numbers quantity = " << beauty_quantity(num_len, beauty_len, base) << endl;
+            "      beautiful numbers quantity = " << beauty_quantity(num_len, beauty_len, base) << endl;
     return 0;
   }
   catch(std::runtime_error& e)
